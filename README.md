@@ -9,4 +9,5 @@ npm install
 npm start
 ````
 
+Open browser on http://localhost:8000
 - and your done
