@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My AngularJS App</title>
+    <title>Logic train</title>
     <meta name="description" content="">
     <script src="//unpkg.com/angular/angular.js"></script>
     <script src="//unpkg.com/rx/dist/rx.all.js"></script>
@@ -10,10 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
     <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="app.scss">
     <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
-<body ng-app="webnews">
+<body ng-app="trainlogic">
 <div class="container">
     <ui-view></ui-view>
 </div>
@@ -25,12 +25,8 @@
 <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="app.js"></script>
 <script src="app.route.js"></script>
-<script src="todo/todos.component.js"></script>
-<script src="components/todo/todo.component.js"></script>
-<script src="components/input/input.component.js"></script>
-<script src="service/todo.service.js"></script>
-<script src="modal/todo.modal.js"></script>
-
-
+<script src="service/contact.service.js"></script>
+<script src="contacts/contacts.component.js"></script>
+<script src="components/contact.component.js"></script>
 </body>
 </html>

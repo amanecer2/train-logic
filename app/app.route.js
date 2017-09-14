@@ -1,13 +1,13 @@
 (function () {
-    angular.module('webnews')
+    angular.module('trainlogic')
         .config(function ($stateProvider, $urlRouterProvider) {
                 $stateProvider
-                    .state('todo', {
-                            url: '/todo',
-                            template: '<wn-todos></wn-todos>'
+                    .state('contacts', {
+                            url: '/contacts',
+                            template: '<tl-contacts></tl-contacts>'
                         }
                     )
-                $urlRouterProvider.otherwise('/todo');
+                $urlRouterProvider.otherwise('/contacts');
             }
         );
 })();
