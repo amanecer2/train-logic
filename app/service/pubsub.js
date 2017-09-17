@@ -1,3 +1,4 @@
+/*
 angular.module('pubsub', ['rx'])
     .factory("pubsub", function (rx) {
         var subject = new rx.Subject();
@@ -15,4 +16,4 @@ angular.module('pubsub', ['rx'])
                 return subject.subscribe(o);
             }
         };
-    });
+    });*/
